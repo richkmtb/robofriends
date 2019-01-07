@@ -1,0 +1,22 @@
+@font-face {
+font-family: 'SEGA LOGO FONT';
+font-style: normal;
+font-weight: normal;
+src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+}
+
+h1 {
+	font-family: 'SEGA LOGO FONT';
+	font-weight: 300;
+	color: #0ccac4;
+
+	background: rgba(12,202,196,1);
+background: linear-gradient(to right, rgba(12,202,196,1) 0%, rgba(12,202,196,1) 50%, rgba(12,202,196,1) 50%, rgba(0,12,235,1) 99%, rgba(0,12,235,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0ccac4', endColorstr='#0ccac4', GradientType=1 );
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+
+.searchBox {
+	box-shadow: 2px 2px 5px rgba(12,202,196,.5);
+}
