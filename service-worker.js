@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/robofriends/precache-manifest.65e8804e54b3b3ba8eee7d2b4ba8e746.js"
+  "/robofriends/precache-manifest.f4318255694a04acd2923595bf527755.js"
 );
 
 workbox.clientsClaim();
